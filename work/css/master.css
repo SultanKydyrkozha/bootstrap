@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+header {
+  height: 540px;
+  position: relative;
+  background-image: url('../img/bg1.png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  z-index: 999;
+  font-family: 'Candara', sans-serif;
+}
+
+.navbar {
+  padding: 0 0;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.navbar-light .navbar-brand {
+  font-family: "Candara", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 0 !important;
+}
+.navbar-light .navbar-brand span {
+  line-height: 0.5;
+}
+.navbar-light .navbar-brand:hover {
+  color: #ffffff !important;
+}
+
+ul li a {
+  font-family: "Candara", sans-serif;
+  font-size: 13px;
+}
+
+ul li button {
+  font-family: "Candara", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+}
+ul li .active, a:hover, a:focus {
+  color: #e47820 !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.nav-item > button {
+    color: #e47820;
+    border: 2px solid #e47820;
+    background-color: transparent;
+    width: 180px;
+    height: 42px;
+    border-radius: 30px;
+    margin-left: 95px;
+}
+
+.nav-item > button:hover {
+  background-color: #e47820;
+  color: white;
+}
+
+.title {
+  font-size: 55px;
+  font-family: 'Candara', sans-serif;
+  font-weight: 600;
+}
+
+.by {
+  font-size: 35px;
+  font-family: 'Monotype Corsiva', sans-serif;
+}
+
+.showPie {
+  color: #ffffff;
+  border: none;
+  background-color: #e47820;
+  width: max-content;
+  padding: 10px 28px;
+  border-radius: 30px;
+}
+
+.pie {
+  width: 470px;
+  height: 470px;
+  position: absolute;
+  margin: 200px 0 0 -25px;
+}
+
+.quotePic {
+  width: 103px;
+  height: 66px;
+  position: absolute;
+  margin: -67px 0 0 14px;
+}
+
+.block-2 {
+  margin-top: 100px;
+  font-family: 'Candara', sans-serif;
+  margin-bottom: 70px;
+}
+
+.tasty {
+  background: url('../img/pie.png');
+  background-repeat: no-repeat;
+  background-size: 75% 75%;
+  background-position: -27px 276px;
+
+}
+.block-2 .description {
+  padding-top: 20px;
+  background-image: url('../img/quote.png');
+  background-repeat: no-repeat;
+  background-position: 14px 5px;
+}
+
+.block-2 .cheff {
+    width: 100%;
+    height: 585px;
+    position: relative;
+    object-fit: cover;
+    object-position: 0;
+}
+
+.quote {
+  font-size: 40px;
+  font-family: 'Candara', sans-serif;
+  font-weight: 600;
+  color: #543626;
+}
+
+.w-50 p {
+  font-size: 18px;
+  font-family: 'Candara', sans-serif;
+  font-weight: 600;
+  color: #543626;
+}
+
+.quo {
+  width: 90%;
+}
+
+.res {
+  width: 70%;
+}
+
+.block-2 .spec .point {
+  width: 20%;
+}
+.block-2 .spec span {
+  font-size: 80px;
+  font-weight: 600;
+  color: #e47820;
+  line-height: 0.65;
+}
+
+.block-2 .spec h5 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #543626;
+}
+
+.block-2 .spec p {
+  font-size: 15px;
+  font-weight: 600;
+  color: #543626;
+}
+.block-2 .cook {
+  font-size: 40px;
+  color: #543626;
+  font-weight: bold;
+}
+.cookies, .cake {
+  width: 90%;
+}
+.cookies span {
+  font-size: 20px;
+  color: #3a1d14;
+}
+.cake {
+  background-image: url('../img/cake-bg.png');
+  background-position: 102% 42px;
+  background-repeat: no-repeat;
+  font-weight: bold;
+}
+.cake h2 {
+  font-size: 40px;
+  color: #e47820;
+  line-height: 0.85;
+  font-weight: bold;
+}
+.cake .consists {
+  color: #3a1d14;
+  font-size: 20px;
+}
+.cake .cake-description p {
+  color: #3a1d14;
+  line-height: 1;
+}
+.cake .values {
+  margin-top: 50px;
+}
+.cake .values span {
+  margin-left: 5px;
+  font-weight: normal;
+  font-size: 20px;
+}
+.cake h3 {
+  font-weight: bold;
+  margin-top: 40px;
+  font-size: 20px;
+  color: #e47820;
+}
+footer {
+  font-family: 'Candara', sans-serif;
+}
+footer .order {
+  background-image: url('../img/smekalka.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+footer * {
+  outline: none;
+}
+footer .order .order-info {
+  width: max-content;
+}
+footer .smekalka {
+  padding: 70px 0;
+}
+footer .order .order-info select {
+  width: 265px;
+  border: none;
+  font-size: 16px;
+  padding: 8px 28px;
+  border-radius: 30px;
+  margin-right: 30px;
+}
+
+footer .order .order-info .info-input {
+  width: 265px;
+  border: none;
+  background: white;
+  font-size: 16px;
+  padding: 8px 28px;
+  border-radius: 30px;
+  margin-right: 30px;
+}
+
+footer .order .order-info button {
+  color: #ffffff;
+  border: none;
+  background-color: #e47820;
+  width: max-content;
+  padding: 8px 28px;
+  border-radius: 30px;
+}
+footer .contacts {
+  background: #202020;
+}
+footer .contacts .info {
+  padding-top: 50px;
+  color: white;
+  font-weight: 400;
+}
+footer .contacts .our-contacts {
+  border-bottom: 1px solid #636363;
+
+}
+footer .contacts .icons .logo {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.icons img {
+  margin-left: 12px;
+}
+
+span img {
+  color: white;
+}
+
+footer .contacts .under-footer {
+  color: #636363;
+  font-size: 12px;
+}
+
+.custom-radio .custom-control-label::before {
+    background-color: #ffffff;
+}
+
+.custom-radio .custom-control-input:checked~.custom-control-label::before,
+.custom-radio .custom-control-input:checked~.custom-control-label::after {
+    background-color: #ffffff;
+    background-image: url('../img/blank.png');
+    border-radius: 50%;
+}
+
+/* the shadow; displayed while the element is in focus */
+.custom-radio .custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: 0 0 0 1px #e47820, 0 0 0 0.2rem #ffffff; /* pink, 25% opacity */
+}
